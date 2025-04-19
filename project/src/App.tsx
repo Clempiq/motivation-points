@@ -5,6 +5,7 @@ import TasksPage from './pages/TasksPage';
 import RewardsPage from './pages/RewardsPage';
 import { useMotivationStore } from './hooks/useMotivationStore';
 
+
 function App() {
   const { points } = useMotivationStore();
 
